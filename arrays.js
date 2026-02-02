@@ -50,6 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const numberthree = numbersArray.map((x) => x * 3)
 
-    console.log(numberthree)
+    console.log("opgave 5 " + numberthree)
+
+    console.log("opgave 6 " + dogsArray.join(""))
 
 }) // ends DOMContentLoaded
