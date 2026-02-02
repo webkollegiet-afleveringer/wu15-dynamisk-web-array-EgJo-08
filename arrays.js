@@ -54,4 +54,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("opgave 6 " + dogsArray.join(""))
 
+
+    const find = fruitsArray.indexOf("Mango")
+
+    console.log("opgave 7a " + find)
+
 }) // ends DOMContentLoaded
