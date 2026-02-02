@@ -63,4 +63,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("opgave 7b " + find2)
 
+    const index = dogsArray.indexOf("Polly");
+    if (index > -1) {
+        dogsArray.splice(index, 1);
+    }
+
+    console.log("opgave 8 " + dogsArray)
+
 }) // ends DOMContentLoaded
